@@ -46,3 +46,13 @@ h5 {
 }
 
 
+@media (max-width: 792px){
+	.fa {
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+	.top-nav {
+		padding: 0 20px;
+	}
+	
+}
