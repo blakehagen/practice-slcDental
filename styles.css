@@ -1,0 +1,44 @@
+html, body {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	background: #005AA3;
+}
+
+.top-nav {
+	width: 100%;
+	height: auto;
+	background: #004E8E;
+	border-bottom: 1px solid #3184C4;
+	text-align: center;
+}
+
+.nav-items {
+	margin: 0 16px 0 0;
+	display: inline-block;
+}
+
+.nav-items-social {
+	margin: 0 16px 0 0;
+	display: inline-block;
+}
+	
+
+
+h5 {
+	font-family: "Myriad Set Pro", sans-serif;
+	font-size: 10px;
+	color: #fff;
+	margin: 0;
+	padding: 10px 0;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+
+.fa {
+	color: #fff;
+	padding-top: 11px;
+    margin: 0 18px 0 0;
+}
+
+
