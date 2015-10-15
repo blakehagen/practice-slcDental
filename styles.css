@@ -33,6 +33,16 @@ h5 {
 	line-height: 20px;
 }
 
+h4 {
+	font-family: "Myriad Set Pro", sans-serif;
+	font-size: 12px;
+	color: #000;
+	margin: 0;
+	/*padding: 10px 0;*/
+	letter-spacing: 1px;
+	line-height: 16px;
+}
+
 h2 {
 	font-family: "Myriad Set Pro", sans-serif;
 	font-size: 23px;
@@ -59,6 +69,7 @@ h2 {
 	margin: 20px auto;
 	background: #fff;
 	border: 1px solid #000;
+	box-shadow: 2px 2px 10px #000;
 	
 }
 
@@ -100,7 +111,7 @@ img {
 
 .secondary-image-container {
 	width: 90%;
-	margin: 50px auto;
+	margin: 50px auto 17px;
 	/*border: 1px solid blue;*/
 	text-align: center;
 }
@@ -110,6 +121,25 @@ img {
 	margin: 0 12px;
 	display: inline-block;
 	/*border: 1px solid green;*/
+}
+
+.general-container {
+	width: 90%;
+	margin: 30px auto;
+	/*border: 1px solid blue;*/
+	text-align: center;
+}
+
+.text-box {
+	width: 30%;
+	margin: 0 12px;
+	display: inline-block;
+	text-align: left;
+	/*border: 1px solid green;*/
+}
+
+.right {
+	float: right;
 }
 
 
