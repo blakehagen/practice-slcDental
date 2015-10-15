@@ -23,12 +23,20 @@ html, body {
 	display: inline-block;
 }
 	
-
-
 h5 {
 	font-family: "Myriad Set Pro", sans-serif;
 	font-size: 10px;
 	color: #fff;
+	margin: 0;
+	padding: 10px 0;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+
+h2 {
+	font-family: "Myriad Set Pro", sans-serif;
+	font-size: 23px;
+	color: #2277B6;
 	margin: 0;
 	padding: 10px 0;
 	letter-spacing: 1px;
@@ -45,6 +53,68 @@ h5 {
 	color: #3184C4;
 }
 
+.main-content {
+	width: 75%;
+	height: auto;
+	margin: 20px auto;
+	background: #fff;
+	border: 1px solid #000;
+	
+}
+
+.main-header {
+	width: 95%;
+	/*border: 1px solid red;*/
+	margin: 20px auto;
+}
+
+.main-header-item-1 {
+	width: 34%;
+	/*border: 1px solid green;*/
+	display: inline-block;
+}
+
+.main-header-item-2 {
+	width: 64%;
+	/*border: 1px solid green;*/
+	display: inline-block;
+	float: right;
+}
+
+.item {
+	width: 15%;
+	display: inline-block;
+	/*border: 1px solid black;*/
+	text-align: center;
+	margin: 30px 1px 15px 2px;
+}
+
+img {
+	width: 100%;
+}
+
+.main-image-container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.secondary-image-container {
+	width: 90%;
+	margin: 50px auto;
+	/*border: 1px solid blue;*/
+	text-align: center;
+}
+
+.smaller-pic {
+	width: 30%;
+	margin: 0 12px;
+	display: inline-block;
+	/*border: 1px solid green;*/
+}
+
+
+
+
 
 @media (max-width: 792px){
 	.fa {
@@ -54,5 +124,4 @@ h5 {
 	.top-nav {
 		padding: 0 20px;
 	}
-	
 }
