@@ -38,9 +38,17 @@ h4 {
 	font-size: 12px;
 	color: #000;
 	margin: 0;
-	/*padding: 10px 0;*/
 	letter-spacing: 1px;
 	line-height: 16px;
+}
+
+h3 {
+	font-family: "Myriad Set Pro", sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+	letter-spacing: 1px;
+	line-height: 24px;
 }
 
 h2 {
@@ -145,6 +153,17 @@ img {
 .right {
 	float: right;
 }
+
+.main-content-container {
+	width: 90%;
+	margin: 15px auto;
+}
+
+/*.center {
+	text-align: center;
+}
+*/
+
 
 
 
